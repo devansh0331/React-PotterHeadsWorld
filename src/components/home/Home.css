@@ -1,0 +1,160 @@
+.col{
+    width: 20%;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.search{
+    width: 80%;
+    margin-top: 3rem;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+    
+}
+
+.homeBlur{
+    
+    /* background: black; */
+    opacity: 0.1;
+    transition: 0.5s all ease-in-out;
+    position: absolute;
+    
+}
+
+.coverPage{
+   
+    position: fixed;
+    /* height: inherit; */
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 5rem auto;
+    
+    /* color: white; */
+    /* background: white; */
+    /* border: 2px solid white; */
+}
+
+.makeflex{
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+
+.coverPage img{
+   
+    height: 28rem;
+    border-radius: 2rem;
+    /* transition: 0.3s all ease-in-out; */
+}
+
+.content {
+    color: white;   
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+font-family: 'Satisfy', cursive;
+}
+
+table{
+    width: 100%;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+table tr{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+table tr td button{
+    margin-top: 1rem;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s all ease-in-out;
+}
+table tr td button:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    /* Adjust the layout and styles for smaller screens */
+    
+    .row.my-5.g-5 {
+      /* Example: Adjust margin and gap between items */
+      width: 100%;
+      margin: 15px;
+      gap: 5px;
+      
+    }
+  
+    .col-3 {
+      /* Example: Adjust the column width */
+      flex: 0 0 50%;
+        
+      max-width: 100%;
+      margin: 1rem auto;
+    }
+  
+    /* ... additional CSS adjustments for smaller screens ... */
+  }
+
+  @media (max-width: 600px){
+    .col-3 {
+        /* Example: Adjust the column width */
+        flex: 0 0 75%;
+        max-width: 100%;
+        margin: 1rem auto;
+      }
+
+      .search{
+        text-align: center;
+      }
+      
+.imgNull{
+    display: none;
+
+}
+
+      .coverPage{
+        position: fixed;
+        height: 100vh;
+        margin: 1rem auto;
+        justify-content:center;
+        align-items: center;
+      }
+
+      .coverPage img{
+        height: 15rem;
+        border-radius: 2rem;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+
+      .title{
+        font-size: 3rem;
+        /* text-align: left; */
+      }
+
+
+  }
+
+  @media (max-width: 500px){
+    .col-3 {
+        /* Example: Adjust the column width */
+        flex: 0 0 90%;
+        max-width: 100%;
+        margin: 1rem auto;
+      }
+  }
+  
+

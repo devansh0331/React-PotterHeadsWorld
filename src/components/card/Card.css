@@ -1,0 +1,33 @@
+.card{
+    border: 2xp solid black;
+    width: 100%;
+    transition: 0.3s all ease;
+    background-color: rgb(247, 247, 113);
+    font-family: 'Satisfy', cursive;
+}
+
+.card img{
+    height: 15rem;
+    width: 80%;
+    border-radius: 50%;
+    padding: 1rem;
+    margin:0 auto
+}
+
+.table{
+    width: 150%;
+
+}
+
+.card:hover{
+    transform: scale(1.16);
+    cursor: pointer;
+}
+
+
+
+/* @media (max-width : 600px){
+    .imgNull{
+        display: none;
+    }
+} */
